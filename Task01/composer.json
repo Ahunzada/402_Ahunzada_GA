@@ -1,0 +1,21 @@
+{
+    "name": "Ahunzada/task01",
+    "authors": [
+        {
+            "name": "Ahunzada",
+            "email": "qambari14@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
