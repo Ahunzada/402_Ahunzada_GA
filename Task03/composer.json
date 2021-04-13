@@ -1,0 +1,25 @@
+{
+    "name": "lab/task03",
+    "type": "project",
+    "authors": [{
+            "name": "Ahunzada",
+            "email": "qambari14@gmail.com"
+    }],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "src/Queue",
+                "src/Stack"
+            ]
+        },
+        "files": [
+            "src/CompareStrings.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
